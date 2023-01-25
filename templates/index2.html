@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style2.css">
+    <title>Linear Regression Model</title>
+</head>
+<body>
+    <h1>Bike Rentals Analysis Prediction Model</h1>
+    <form method="POST" action="/predict">
+        <label for="season">Season:</label>
+        <input type="text" id="season" name="season">
+        <br>
+        <label for="yr">Year:</label>
+        <input type="text" id="yr" name="yr">
+        <br>
+        <label for="mnth">Month:</label>
+        <input type="text" id="mnth" name="mnth">
+        <br>
+        <label for="holiday">Holiday:</label>
+        <input type="text" id="holiday" name="holiday">
+        <br>
+        <label for="weekday">Weekday:</label>
+        <input type="text" id="weekday" name="weekday">
+        <br>
+        <label for="workingday">Workingday:</label>
+        <input type="text" id="workingday" name="workingday">
+        <br>
+        <label for="weathersit">Weathersit:</label>
+        <input type="text" id="weathersit" name="weathersit">
+        <br>
+        <label for="temp">Temperature:</label>
+        <input type="text" id="temp" name="temp">
+        <br>
+        <label for="hum">Humidity:</label>
+        <input type="text" id="hum" name="hum">
+        <br>
+        <label for="windspeed">Wind Speed:</label>
+        <input type="text" id="windspeed" name="windspeed">
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
